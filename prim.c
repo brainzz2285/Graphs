@@ -49,6 +49,7 @@ void primMST (int graph[V][V])
 
 int main ()
 {
+	// see primc.png to understand the adjacency matrix given below
   int graph[V][V] = { {0, 2, 0, 6, 0},
   {2, 0, 3, 8, 5},
   {0, 3, 0, 0, 7},
