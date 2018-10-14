@@ -129,14 +129,7 @@ void KruskalMST (struct Graph *graph)
 
 int main() 
 { 
-    /* Let us create following weighted graph 
-             10 
-        0--------1 
-        |  \     | 
-       6|   5\   |15 
-        |      \ | 
-        2--------3 
-            4       */
+    // see kruskalc.png to understand the graph construction given below
     int V = 4;  // Number of vertices in graph 
     int E = 5;  // Number of edges in graph 
     struct Graph* graph = createGraph(V, E); 
